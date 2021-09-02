@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+#cabezera {
+    display: inline-block; 
+    padding: 12px;
+    width: 100%;
+    background: #125D98;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 40px;
+}
+
+#cabezera-2 {
+    background-color: #3C8DAD;
+}
+
+#cabezera-2 ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+#cabezera-2 ul li{
+    display: inline-block;
+}
+
+#cabezera-2 ul li a {
+    color: white;
+    display: block;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#cabezera-2 ul li a:hover{
+    background-color: #125D98;
+}
+
+#contenedor{
+    width: 500px;
+    background: #3C8DAD;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px #888888;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+#contenedor h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.cajas{
+    width: 100%;
+    background: #DDDDDD;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid #757575;
+}
+
+#contenedor p{
+    height: 70px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 13px;
+    padding-top: 10px;
+}
+
+#contenedor .boton {
+    width: 100%;
+    background: #57CC99;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+}

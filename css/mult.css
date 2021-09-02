@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo-mult.jpg);
+    background-size: cover;
+}
+
+#cabezera {
+    display: inline-block; 
+    padding: 12px;
+    width: 100%;
+    background: #125D98;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 40px;
+}
+
+#cabezera-2 {
+    background-color: #3C8DAD;
+}
+
+#cabezera-2 ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+#cabezera-2 ul li{
+    display: inline-block;
+}
+
+#cabezera-2 ul li a {
+    color: white;
+    display: block;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#cabezera-2 ul li a:hover{
+    background-color: #125D98;
+}
+
+.item-r{
+    float: right;
+}
+
+#cuadro {
+    width: 1000px;
+    background: #DDDDDD;
+    padding: 60px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#cuadro iframe{
+    margin-top: 30px;
+}
